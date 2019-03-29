@@ -94,7 +94,8 @@ header nav {
 	padding: 10px 20px;
 	border-radius: 5px;
 	position: fixed;
-	opacity: .6
+	opacity: .6;
+	border: 1px solid black;
 }
 
 header nav a {
@@ -180,10 +181,6 @@ div.contact {
 
 div.contact p{
 	margin: 12px 0px;
-}
-
-div.contact p.copyright {
-	text-align: center;
 }
 
 header .services-header-img{
