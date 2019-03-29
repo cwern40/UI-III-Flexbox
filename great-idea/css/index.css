@@ -64,3 +64,176 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	font-weight: 600;
+}
+
+p {
+	line-height: 120%;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	width: 900px;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	width: 650px;
+	align-items: center;
+}
+
+header nav a {
+	text-decoration: none;
+	color: gray;
+}
+
+header nav a:hover{
+	text-decoration: underline;
+}
+
+header nav .first-anchor {
+	margin-left: 0;
+}
+
+div.top{
+	padding: 25px;
+	margin: 30px 0px;
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+    font-size: 80px;
+	text-align: center;
+	width: 450px;
+}
+
+button{
+    background: white;
+    font-family: 'Titillium Web', sans-serif;
+    border: 1.5px solid black;
+	padding: 5px 40px;
+	margin-left: 150px;
+}
+
+button:hover{
+	background: black;
+	color: white;
+}
+
+div.middle {
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div.middle .left {
+	width: 449px;
+	margin: 35px 0px;
+}
+
+div.middle .right {
+	width: 449px;
+	margin: 35px 0px;
+}
+
+div.middle .bottom-left{
+	width: 290px;
+	margin: 35px 0px;
+}
+
+div.middle .bottom-middle{
+	margin: 35px 0px;
+	width: 290px;
+}
+
+div.middle .bottom-right{
+	margin: 35px 0px;
+	width: 290px;
+}
+
+div.contact {
+	margin: 35px 0px;
+}
+
+div.contact p{
+	margin: 12px 0px;
+}
+
+div.contact p.copyright {
+	text-align: center;
+}
+
+header .services-header-img{
+	margin: 20px 0;
+}
+
+.service-title-section .service-title {
+	font-size: 25px;
+    text-align: left;
+}
+
+.service-title-section p {
+	margin-bottom: 25px;
+}
+
+.services-middle {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	padding: 20px 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.services-middle .service-content{
+	background: rgb(240, 240, 240);
+	border: 1.5px solid black;
+	width: 425px;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+button.service {
+	margin: 20px 0 0 0;
+	border-radius: 5px;
+}
+
+.services-bottom {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	justify-content: space-between;
+}
+
+.services-bottom .text{
+	width: 400px;
+}
+
+.services-bottom ul{
+	margin-top: 16px;
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 150%;
+}
+
+footer{
+	width: 900px;
+	margin: 40px 0 10px;
+}
+
+footer p{
+	text-align: center;
+}
